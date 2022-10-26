@@ -106,10 +106,8 @@ Em seguida, precisamos apenas especificar o código hash ao lado do commit que d
 git revert 3321844
 Depois disso, você verá uma tela igual ao que vemos abaixo - basta pressionar shift + q para sair:
 
-resim-2
 O comando git revert desfará o commit especificado, mas criará outro commit sem excluir o antigo:
 
-resim-3
 Novo commit do "revert"
 A vantagem de se usar git revert é não tocar no histórico de commits. Isso significa que você ainda pode ver todos os commits do seu histórico, mesmo os revertidos.
 
